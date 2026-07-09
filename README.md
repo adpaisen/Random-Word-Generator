@@ -82,7 +82,3 @@ RandomWordGenerator/
 * Add custom word lists.
 * Add favorite words using `localStorage`.
 * Add word difficulty levels.
-
----
-
-> ⚠️ **Disclaimer:** This project is created for **personal and educational purposes only**. It is intended as a simple frontend practice project to improve JavaScript, UI design, and browser-based functionality.
