@@ -7,21 +7,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <h1>🎲 Random Word Generator</h1>
 
-<div class="container">
-    <h1>🎲 Random Word Generator</h1>
+        <div class="word-box">
+            <p id="word">Click generate</p>
+        </div>
 
-    <div class="word-box">
-        <p id="word">Click generate</p>
+        <div class="buttons">
+            <button onclick="generateWord()">Generate</button>
+            <button onclick="copyWord()">Copy</button>
+        </div>
+
+        <p id="message"></p>
     </div>
 
-    <div class="buttons">
-        <button onclick="generateWord()">Generate</button>
-        <button onclick="copyWord()">Copy</button>
-    </div>
-
-    <p id="message"></p>
-</div>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
