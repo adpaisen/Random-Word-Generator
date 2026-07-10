@@ -1,29 +1,22 @@
-const words = [
-    "Adventure",
-    "Galaxy",
-    "Phoenix",
-    "Shadow",
-    "Thunder",
-    "Ocean",
-    "Velocity",
-    "Mystery",
-    "Cyber",
-    "Infinity",
-    "Quantum",
-    "Storm",
-    "Legend",
-    "Future",
-    "Dream"
-];
+async function generateWord() {
 
+    const wordElement = document.getElementById("word");
+    const message = document.getElementById("message");
 
-function generateWord() {
+    wordElement.textContent = "Loading...";
+    message.textContent = "";
 
-    const randomIndex = Math.floor(Math.random() * words.length);
+    try {
+        const response = await fetch("https://random-word-api.herokuapp.com/word");
 
-    document.getElementById("word").textContent = words[randomIndex];
+        const data = await response.json();
 
-    document.getElementById("message").textContent = "";
+        wordElement.textContent = data[0];
+
+    } catch (error) {
+        wordElement.textContent = "Error";
+        message.textContent = "Failed to generate word";
+    }
 }
 
 
