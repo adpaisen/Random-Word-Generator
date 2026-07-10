@@ -6,7 +6,9 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    margin: 0;
 }
+
 
 .container {
     background: #1e293b;
@@ -16,9 +18,11 @@ body {
     width: 350px;
 }
 
+
 h1 {
     margin-bottom: 30px;
 }
+
 
 .word-box {
     background: #334155;
@@ -28,9 +32,16 @@ h1 {
     margin-bottom: 20px;
 }
 
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
 button {
     padding: 12px 20px;
-    margin: 5px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -39,10 +50,13 @@ button {
     font-weight: bold;
 }
 
+
 button:hover {
     opacity: 0.8;
 }
 
+
 #message {
     color: #94a3b8;
+    margin-top: 15px;
 }
