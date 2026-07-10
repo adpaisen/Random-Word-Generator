@@ -31,8 +31,12 @@ function copyWord() {
 
     const word = document.getElementById("word").textContent;
 
-    navigator.clipboard.writeText(word);
+    navigator.clipboard.writeText(word)
+        .then(() => {
+            document.getElementById("message").textContent = "Copied!";
+        })
+        .catch(() => {
+            document.getElementById("message").textContent = "Copy failed!";
+        });
 
-    document.getElementById("message").textContent = 
-        "Copied!";
 }
