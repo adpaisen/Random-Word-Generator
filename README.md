@@ -6,7 +6,7 @@ This project provides a simple way to generate creative ideas, project names, wr
 
 ---
 
-# 🎲 How to Use
+# How to Use 🚀
 
 1. Open the Random Word Generator website.
 2. Click the **Generate** button.
@@ -21,29 +21,29 @@ This project provides a simple way to generate creative ideas, project names, wr
 
 ---
 
-# ✨ Features
+# Features ✨ 
 
-### 🎲 Word Generation
+### Word Generation 🎲 
 
 * Generates random words instantly.
 * Simple one-click generation system.
 * Large collection of predefined words.
 * Fast and lightweight performance.
 
-### 📋 Clipboard Functionality
+### Clipboard Functionality 📋 
 
 * Copy generated words with one click.
 * Provides confirmation after copying.
 * Uses browser clipboard API.
 
-### 🎨 UI & Design
+### UI & Design 🎨 
 
 * Clean and modern user interface.
 * Simple card-based layout.
 * Smooth button interactions.
 * Dark-themed design.
 
-### 📱 Responsive Design
+### Responsive Design  📱 
 
 * Optimized for:
 
@@ -53,7 +53,7 @@ This project provides a simple way to generate creative ideas, project names, wr
 
 ---
 
-# 🛠️ Technologies Used
+# Technologies Used 🛠️ 
 
 * HTML5
 * CSS3
@@ -61,7 +61,7 @@ This project provides a simple way to generate creative ideas, project names, wr
 
 ---
 
-# 📂 Project Structure
+# Project Structure 📂 
 
 ```text
 RandomWordGenerator/
@@ -74,7 +74,7 @@ RandomWordGenerator/
 
 ---
 
-# 📌 Future Improvements
+# Future Improvements 📌 
 
 * Add word categories.
 * Add dark/light mode toggle.
